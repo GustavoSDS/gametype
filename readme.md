@@ -9,7 +9,7 @@ This is a simple typewriter effect that you can use to test your typing speed.
 
 ## Live Preview
 
-[Live Preview](https://joaopaulo-dev.github.io/gametype/)
+[Click here](https://game-type-gsds.netlify.app/)
 
 ## Tecnologias utilizadas
 
