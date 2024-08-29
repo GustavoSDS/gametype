@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GameType - Typewriter Effect">
+    <meta name="keywords" content="gametype, typewriter, effect, game, javascript">
+    <meta name="author" content="Monke">
+    <title>GameType</title>
+    
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+    <link rel="stylesheet" href="./css/animations.css">
+</head>
+
+<body>
+    <header>
+        <h1>GameType</h1>
+        <p>
+            This is a simple typewriter effect that you can use to test your typing speed.
+        </p>
+        <p class="info">
+            Press the <strong>enter</strong> key to start the game.
+        </p>
+    </header>
+    <main>
+        <section id="typewriter">
+            <time datetime="2024-01-01" id="time"></time>
+            <p class="paragraph" id="paragraph"></p>
+            <input type="text" autofocus id="input" autocomplete="off" />
+            <button id="start">
+                Start
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-play-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M11.596 8l3.596-3.596a.63.63 0 0 1 .708.708L12 8l3.596 3.596a.631.631 0 0 1-.708.708L12 8l-3.596 3.596a.631.631 0 0 1-.708-.708L12 8l-3.596-3.596a.63.63 0 0 1 .708-.708L12 8z" />
+                </svg>
+            </button>
+        </section>
+        <section id="results">
+            <h2>Results</h2>
+            <h3 id="wpm"></h3>
+
+            <h2>Accuracy</h2>
+            <h3 id="accuracy"></h3>
+
+            <h2>Words correct</h2>
+            <h3 id="words-correct"></h3>
+
+            <button id="reset">Reset
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z" />
+                    <path
+                        d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z" />
+                </svg>
+            </button>
+        </section>
+    </main>
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>

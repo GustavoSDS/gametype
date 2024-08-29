@@ -1,0 +1,30 @@
+
+@keyframes blink {
+    0%, 20% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }    
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes typewriter-letter {
+    from {
+        width: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.typewriter {
+    animation: typewriter 1s steps(30) forwards;
+}
+.typewriter-letter {
+    animation: typewriter-letter 1s steps(30) forwards;
+}
